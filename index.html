@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevConnect - Portfolio & Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DevConnect</h1>
+    </header>
+
+    <section class="profile">
+        <h2>Developer Profile</h2>
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <label>Bio:</label>
+        <textarea id="bio" placeholder="Write a short bio"></textarea>
+        <button onclick="saveProfile()">Save Profile</button>
+        <h3>Your Profile:</h3>
+        <p><strong>Name:</strong> <span id="displayName"></span></p>
+        <p><strong>Bio:</strong> <span id="displayBio"></span></p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <input type="text" id="projectName" placeholder="Project Name">
+        <input type="url" id="projectLink" placeholder="GitHub Link">
+        <button onclick="addProject()">Add Project</button>
+        <ul id="projectList"></ul>
+    </section>
+
+    <section class="blog">
+        <h2>Blog Posts</h2>
+        <input type="text" id="blogTitle" placeholder="Blog Title">
+        <textarea id="blogContent" placeholder="Write your blog"></textarea>
+        <button onclick="addBlog()">Add Blog</button>
+        <div id="blogPosts"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
