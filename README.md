@@ -25,3 +25,14 @@ DevConnect is a simple web-based platform where developers can **showcase their 
 ---
 
 ## 📂 Project Structure
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/DevConnect.git
+cd DevConnect
